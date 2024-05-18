@@ -10,7 +10,7 @@ from cinema.views import (
 
 routers = routers.DefaultRouter()
 
-routers.register("cinema_hall", CinemaHallViewSet)
+routers.register("cinema_halls", CinemaHallViewSet)
 routers.register("genres", GenreViewSet)
 routers.register("actors", ActorViewSet),
 routers.register("movies", MovieViewSet),
